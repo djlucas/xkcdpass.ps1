@@ -1,0 +1,3 @@
+xkcdpass.ps1 is simple PowerShell script to generate memorable passwords, using only the standard Python library and a wordlist. A Unix dictionary at /usr/share/dict/words is a sufficient input source for most Unix like boxes. On windows, and possibly other platforms, you will need to supply a dictionary manually (or it will download the EFF dice list on every invocation and use that). A dictionay is a simple list of words, one per line, that meet the necessary length criteria for your password scheme.
+
+Included here is a wordlist, xkcdpass.txt, which was assembled from the EFF wordlists and later modified to remove vulgar words, as well as a handful of more common words that have led to a few...let's just say 'less than desirable' phrases.
